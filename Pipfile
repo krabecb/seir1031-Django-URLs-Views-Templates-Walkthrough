@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 django = "*"
 psycopg2-binary = "*"
+setuptools = "*"
+django-on-heroku = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 

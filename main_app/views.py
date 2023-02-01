@@ -53,7 +53,7 @@ class Home(TemplateView):
 #         return HttpResponse("Spotify About")
 
 # class About inherits from TemplateView
-class About(TemplateView):
+class About(TemplateView): #TemplateView handles the __init__ for us!
     template_name = "about.html"
 
 class ArtistList(TemplateView):
